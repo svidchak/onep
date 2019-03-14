@@ -60,6 +60,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     .narrative {
         width: 100%;
         background-color: #798e9f;
@@ -95,13 +96,16 @@ body {
 .mark {
     margin: 0 auto;
 }
-#products{
+
+#products {
     background-color: #798e9f;
 }
-#products h2{
+
+#products h2 {
     text-align: center;
     margin: 50px;
 }
+
 #products h3 {
     margin-bottom: 30px;
     margin-top: 50px;
@@ -112,17 +116,20 @@ body {
     height: 200px;
     margin: 35px;
 }
-.protect-glass h3{
+
+.protect-glass h3 {
     text-align: right;
     margin-right: 25px;
 }
 
-.sp{
+.sp {
     text-align: center;
 }
-.pg{
+
+.pg {
     text-align: center;
 }
+
 @media(max-width: 450px) {
     #products img {
         width: 325px;
@@ -131,35 +138,43 @@ body {
         margin-bottom: 10px;
     }
 }
-.mcon{
+
+.mcon {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: 50px;
 }
-#contacts{
+
+#contacts {
     margin-top: 60px;
 }
- .message{
-        text-align: center;
+
+.message {
+    text-align: center;
 }
-@media(max-width:  600px) {
-    .mcon{
+
+@media(max-width: 600px) {
+    .mcon {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .message{
+
+    .message {
         text-align: center;
         margin-bottom: 30px;
     }
-    .map{
+
+    .map {
         margin: auto;
         width: 320px;
     }
 }
-#contacts input{
+
+#contacts input {
     width: 260px;
 }
-.map{
+
+.map {
     margin-bottom: 50px;
 }
 
